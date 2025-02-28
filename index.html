@@ -11,15 +11,57 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <style>
       .font-inter {
         font-family: "Inter", sans-serif;
       }
     </style>
   </head>
-  <body>
+  <body class="bg-[#111111] font-inter">
     <!-- This is header part-->
-    <header></header>
+    <header
+      class="w-11/12 md:w-5/6 lg:w-10/12 mx-auto my-5 md:my-8 lg:my-12 text-white h-80"
+    >
+      <!-- navbar part -->
+      <nav class="flex justify-between items-center">
+        <div>
+          <h1 class="text-[#E6533C] text-lg md:text-2xl lg:text-3xl font-bold">
+            Body Fitness Zone
+          </h1>
+        </div>
+
+        <div class="md:hidden">
+          <img src="./images/menu-bar 2.PNG" alt="" />
+        </div>
+        <div class="hidden md:block">
+          <ul
+            class="lg:h-10 list-none border border-slate-700 rounded-2xl flex justify-between items-center gap-x-3"
+          >
+            <li class="w-14 lg:w-20 text-center hover:bg-[#E6533C] rounded-2xl">
+              <a class="text-xs lg:text-sm" href="">Home</a>
+            </li>
+
+            <li class="w-14 lg:w-20 text-center hover:bg-[#E6533C] rounded-2xl">
+              <a class="text-xs lg:text-sm" href="">Service</a>
+            </li>
+
+            <li class="w-14 lg:w-20 text-center hover:bg-[#E6533C] rounded-2xl">
+              <a class="text-xs lg:text-sm" href="">Contact</a>
+            </li>
+
+            <li class="w-14 lg:w-20 text-center hover:bg-[#E6533C] rounded-2xl">
+              <a class="text-xs lg:text-sm" href="">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <!-- This is main part-->
     <main></main>
     <!-- This is footer part -->
