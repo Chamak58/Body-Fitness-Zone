@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Body Fitness Zone</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font code -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=My+Soul&display=swap"
       rel="stylesheet"
     />
-
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -20,6 +20,9 @@
     <style>
       .font-inter {
         font-family: "Inter", sans-serif;
+      }
+      .font-my-soul {
+        font-family: "My Soul", cursive;
       }
     </style>
   </head>
@@ -35,10 +38,11 @@
             Body Fitness Zone
           </h1>
         </div>
-
-        <div class="md:hidden">
+        <!-- navbar icon -->
+        <div class="md:hidden w-10">
           <img src="./images/menu-bar 2.PNG" alt="" />
         </div>
+        <!-- navbar links -->
         <div class="hidden md:block">
           <ul
             class="lg:h-10 list-none border border-slate-700 rounded-2xl flex justify-between items-center gap-x-3"
@@ -61,6 +65,61 @@
           </ul>
         </div>
       </nav>
+      <!-- banner section -->
+      <section
+        class="px-5 md:px-8 py-3 md:py-10 lg:py-14 lg:flex justify-between"
+      >
+        <!-- banner content part -->
+        <div class="lg:w-6/12 items-center my-auto">
+          <h1
+            class="text-3xl md:text-6xl lg:text-7xl font-black tracking-wider"
+          >
+            Get Body in
+            <br />
+            <span class="font-my-soul">Shape</span> & Stay
+            <br />
+            Healthy
+          </h1>
+          <p class="opacity-70 text-xs md:text-sm py-5 md:py-8">
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
+          </p>
+          <!-- button part -->
+          <div class="flex justify-between">
+            <button
+              class="bg-[#E6533C] text-sm md:text-lg font-medium md:font-semibold px-6 md:px-10 py-2 md:py-3 rounded-3xl"
+            >
+              Join Now!
+            </button>
+            <button
+              class="text-sm md:text-lg font-medium md:font-semibold px-6 md:px-10 py-2 md:py-3 border border-slate-200 rounded-3xl"
+            >
+              Download App
+            </button>
+          </div>
+        </div>
+        <!-- banner image part -->
+        <div class="lg:w-5/12">
+          <!-- Image -->
+          <div class="relative">
+            <img class="mx-auto" src="./images/Images 2.png" alt="" />
+          </div>
+          <!-- videos card -->
+          <div
+            class="w-36 md:w-48 px-3 py-2 md:px-5 md:py-4 rounded-md bg-neutral-800 absolute top-full right-8 md:right-10 lg:top-80 lg:right-8"
+          >
+            <h1 class="text-xl md:text-4xl font-black">500+</h1>
+            <p class="text-xs md:text-sm">Free Workout Videos</p>
+          </div>
+          <!-- tutorial card -->
+          <div
+            class="w-32 md:w-40 px-3 py-2 md:px-5 md:py-4 rounded-md bg-slate-300 bg-opacity-30 -bottom-full right-60 md:-bottom-64 md:left-16"
+          >
+            <h1 class="text-xl md:text-4xl font-black">350+</h1>
+            <p class="text-xs md:text-sm">Video tutorial</p>
+          </div>
+        </div>
+      </section>
     </header>
     <!-- This is main part-->
     <main></main>
